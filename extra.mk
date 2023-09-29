@@ -17,3 +17,6 @@
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/extra-tama
+
+# Dolby Sound
+    $(call inherit-product, vendor/sony/extra-tama/extra/dolby/dolby.mk)
